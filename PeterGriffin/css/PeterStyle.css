@@ -1,0 +1,122 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto&display=swap');
+
+
+html {
+    text-align: center;
+    background-color: rgb(198, 198, 238);
+}
+/**************************Header/*****************************/
+header h1 {
+    font-size: 70px;
+}
+header {
+    background-color: #dde1ff;
+    padding: 5px 5px 85px 5px;
+    
+    margin-bottom: 0px;
+    
+}
+header p{
+    
+    font-size: 40px;
+    line-height: 50px;
+    font-stretch: expanded;
+    margin: 13% 13% 10% 40%;
+}
+header img{
+    margin-left: 125px;
+    float: left;
+}
+/***********************Nav*********************************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f1435;
+
+
+}
+nav li {
+    float: left;
+}
+nav li a, nav li a:visited {
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav li a:hover {
+    background-color: #5b5bdb;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/*****************************Section*********************************/
+section {
+    background-color: #afafd6;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+.friends{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    color: #0f1435;
+    padding: 0;
+}
+
+/*****************************Titles****************************/
+h1 , h2, h3 {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #0B123E;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.Quote {
+    background-color: #afafd6;
+    color: #252d63;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+h2 {
+   font-size: 35px; 
+}
+
+/*****************************Paragraph******************************/
+p {
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #0f1435;
+
+}
+
+a {
+    color: #0f1435;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #32639c;
+}
+a:hover {
+    color: #3f4988;
+}
+/********************************Footer*********************/
+footer {
+    background-color: #dde1ff;
+    padding: 20px;
+}
+
+
+
+
