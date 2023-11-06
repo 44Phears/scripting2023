@@ -1,0 +1,70 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:wght@300&display=swap');
+
+body {
+    text-align: center;
+    background-image: url("../Pics/Heppler_SakuraCustomSkateboard.jpg");
+    background-size: contain;
+    background-position: center;
+    
+}
+
+/***********************Nav*********************************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #0f1435;
+    font-family: 'Pt Sans';
+    font-size: 20px;
+}
+nav li {
+    float: left;
+}
+nav li a, nav li a:visited {
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav li a:hover {
+    background-color: #313181;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/**************************/
+#Top {
+    background-image: url("../Pics/Heppler_SnowLandscape.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding: 150px 0px;
+    
+}
+
+h1 {
+    font-family: 'Rubik';
+    font-size: 60px;
+    color: rgb(8, 8, 39);
+    margin-top: 10px;
+
+}
+h2 {
+    font-family: 'Rubik';
+    font-size: 40px;
+}
+p {
+    font-family: 'Pt Sans';
+    font-size: 20px;
+}
+h4 {
+    font-family: 'Rubik';
+    
+}
+
+
