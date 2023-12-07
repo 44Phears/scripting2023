@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pirate Adventure</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/Libs.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <header class="bg-main" id="Top">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <br>
+                    <h1><b>The Pirate Adventure</b></h1>
+                    <p id="One">Welcome to a pirate themed Mad Libs game. Mad Libs is a word game where one person
+                        prompts another for a list of words to substitute for blanks in a story.</p>
+                    <br><br><br><br>
+                    <p class="text-center">A couple of thing to note before getting into the story:</p><br><br>
+                    <ul class="explanation">
+                        <li>
+                            <p>A noun is a person place or thing (example - fork)</p>
+                        </li><br>
+                        <li>
+                            <p>An adjective is a descriptive word (example - sharp)</p>
+                        </li><br>
+                        <li>
+                            <p>A verb is an action word (example - run)</p>
+                        </li><br>
+                        <li>
+                            <p>A plural noun is more than 1 noun (example - forks)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--input-->
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-12 text-center" id="head">
+                    <h2>Put Your Words in These Boxes</h2>
+
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="adjective1">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective1">
+                    </div>
+                    <div class="form-group">
+                        <label for="oceanName">Name of a Body of Water</label><br>
+                        <input class="form-control" type="text" id="oceanName">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective2">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective2">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun1">Noun</label><br>
+                        <input class="form-control" type="text" id="noun1">
+                    </div>
+                    <div class="form-group">
+                        <label for="captainName">Noun</label><br>
+                        <input class="form-control" type="text" id="captainName">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective3">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective3">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective4">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective4">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="noun3">Noun</label><br>
+                        <input class="form-control" type="text" id="noun3">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective6">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective6">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun4">Noun</label><br>
+                        <input class="form-control" type="text" id="noun4">
+                    </div>
+                    <div class="form-group">
+                        <label for="place">Place</label><br>
+                        <input class="form-control" type="text" id="place">
+                    </div>
+                    <div class="form-group">
+                        <label for="plNoun4">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="plNoun4">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective9">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective9">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun9">Noun</label><br>
+                        <input class="form-control" type="text" id="noun9">
+                    </div>
+                    <div class="form-group">
+                        <label for="verb4">Verb Ending in "ing"</label><br>
+                        <input class="form-control" type="text" id="verb4">
+                    </div>
+                    <div class="form-group">
+                        <label for="plNoun5">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="plNoun5">
+                    </div>
+                    <div class="form-group">
+                        <label for="verb5">Verb</label><br>
+                        <input class="form-control" type="text" id="verb5">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective10">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective10">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun11">Noun</label><br>
+                        <input class="form-control" type="text" id="noun11">
+                    </div>
+                    <div class="form-group">
+                        <label for="plNoun7">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="plNoun7">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="emotion1">
+                            <input type="radio" class="form-check-input" id="emotion1" name="Emotion" value="pride">Pride
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="emotion2">
+                            <input type="radio" class="form-check-input" id="emotion2" name="Emotion" value="valor">Valor
+                        </label>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="number">Number</label><br>
+                        <input class="form-control" type="text" id="number">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun2">Adjective</label><br>
+                        <input class="form-control" type="text" id="noun2">
+                    </div>
+                    <div class="form-group">
+                        <label for="verb1">Verb</label><br>
+                        <input class="form-control" type="text" id="verb1">
+                    </div>
+                    <div class="form-group">
+                        <label for="plNoun1">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="plNoun1">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="adjective5">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective5">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="plNoun2">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="plNoun2">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="islandName">Island Name</label><br>
+                        <input class="form-control" type="text" id="islandName">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun6">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="noun6">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective7">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective7">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun7">Noun</label><br>
+                        <input class="form-control" type="text" id="noun7">
+                    </div>
+                    <div class="form-group">
+                        <label for="verb2">Verb</label><br>
+                        <input class="form-control" type="text" id="verb2">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective8">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective8">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun8">Noun</label><br>
+                        <input class="form-control" type="text" id="noun8">
+                    </div>
+                    <div class="form-group">
+                        <label for="plNoun3">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="plNoun3">
+                    </div>
+                    <div class="form-group">
+                        <label for="verb3">Verb Ending in "ing"</label><br>
+                        <input class="form-control" type="text" id="verb3">
+                    </div>
+                    <div class="form-group">
+                        <label for="plNoun6">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="plNoun6">
+                    </div>
+                    <div class="form-group">
+                        <label for="verb6">Plural Noun</label><br>
+                        <input class="form-control" type="text" id="verb6">
+                    </div>
+                    <div class="form-group">
+                        <label for="verb7">Verb Ending in "ed"</label><br>
+                        <input class="form-control" type="text" id="verb7">
+                    </div>
+                    <div class="form-group">
+                        <label for="noun10">Noun</label><br>
+                        <input class="form-control" type="text" id="noun10">
+                    </div>
+                    <div class="form-group">
+                        <label for="adjective11">Adjective</label><br>
+                        <input class="form-control" type="text" id="adjective11">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="emotion3">
+                            <input type="radio" class="form-check-input" id="emotion3" name="Emotion" value="bravery">Bravery
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="emotion4">
+                            <input type="radio" class="form-check-input" id="emotion4" name="Emotion" value="passion">Passion
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <br>
+                    <br>
+                    <p>Try your story by pressing the button below</p>
+                    <form action="javascript:genStory();">
+                        <button class="btn btn-block btn-outline-primary" type="submit" value="Generate Story">Generate
+                            Story</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--output-->
+    <section>
+        <p id="story"></p>
+        <br>
+    </section>
+
+    <footer class="text-center">
+        <br>
+        <b>
+            <p>Gavin Heppler </p>
+        </b>
+        <a href="#">Back To Top</a>
+    </footer>
+
+    <script src="js/Libs.js"></script>
+</body>
+
+</html>
